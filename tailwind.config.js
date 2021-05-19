@@ -13,6 +13,13 @@ module.exports = {
     extend: {
       fontFamily: {
         headline: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        brand: {
+          light: '#f2c0f2',
+          DEFAULT: '#dda0dd',
+          dark: '#a243a2',
+        }
       }
     },
   },
