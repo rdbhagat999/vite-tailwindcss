@@ -2,7 +2,7 @@
 export default {
   build: {
     // generate manifest.json in outDir
-    manifest: true,
+    manifest: false,
     rollupOptions: {
       // overwrite default .html entry
       input: './index.html'

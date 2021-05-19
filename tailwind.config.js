@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    // enabled: true,
     content: [
     "./src/**/*.{html,css,js,ts,jsx,tsx,svelte,astro}",
     ],
@@ -10,7 +10,11 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        headline: ['Poppins', 'sans-serif'],
+      }
+    },
   },
   variants: {
     extend: {
